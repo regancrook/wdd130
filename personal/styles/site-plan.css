@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #3615CE   ;
-  --secondary-color: #A9CC11 ;
+  --secondary-color: #8D7AE2 ;
   --accent1-color: #E1E1E8;
-  --accent2-color: #8D7AE2;
+  --accent2-color: #A9CC11;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Pathway Gothic One";
@@ -19,11 +19,11 @@ Fonts are separated by a | */
   --headline-color-on-color: #E1E1E8; /* headlines on a colored background */ 
   --paragraph-color-on-white: #8D7AE2; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #E1E1E8; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #A9CC11  ;
+  --paragraph-background-color: #8D7AE2  ;
   --nav-link-color: #E1E1E8;
-  --nav-background-color: #A9CC11;
+  --nav-background-color: #8D7AE2;
   --nav-hover-link-color: #E1E1E8;
-  --nav-hover-background-color: #8D7AE2;
+  --nav-hover-background-color: #A9CC11;
 }
 
 
