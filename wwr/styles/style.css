@@ -179,6 +179,58 @@ main section {
 main section img {
     box-sizing: border-box;
 }
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 35px;
+    row-gap: 25px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.river-msg {
+    background-color: #396E94;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: Quicksand, Helvetica, sans-serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+.river-card {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.rafting-msg {
+    background-color: #396E94;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: Quicksand, Helvetica, sans-serif;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.rafting-card {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.arizona-msg {
+    background-color: #396E94;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: Quicksand, Helvetica, sans-serif;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}   
+.arizona-card {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
 footer {
     background-color: #ffb703;
     padding: 25px 50px;
