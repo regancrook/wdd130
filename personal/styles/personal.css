@@ -39,6 +39,11 @@ nav a {
     margin: auto;
     padding: 35px;
 }
+#logo_link {
+    padding-top: 35px;
+    justify-self: center;
+    align-self: center;
+}
 nav a:hover {
     background-color: #A9CC11;
     color: #3616CE;
