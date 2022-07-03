@@ -21,29 +21,32 @@ header {
 nav {
     text-align: center;
     text-decoration: none;
-    display: flex;
+    display: block;
     justify-content: space-around;
 } 
 nav a {
-    text-align: right;
+    text-align: left;
     color: #E1E1E8;
     text-decoration: none;
     font-family: 'Pathway Gothic One', sans-serif;
-    padding: 35px;
+    padding: 20px;
     font-size: 40px;
+}
+.logo {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #A9CC11;
     color: #3616CE;
     text-decoration: underline;
 }
-#logo_link {
-    padding-top: 10px;
-    justify-content: center;
-}
 .home-grid {
     display: grid;
-    grid-template-columns: 250px 400px 400px 400px 400px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-template-rows: 150px 500px 500px 250px 50px;
 
 }
