@@ -203,13 +203,13 @@ h4 {
 
 .faq-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 1200px;
 }
 .header-card {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    padding: 20px;
+    align-self: center;
+    max-width: 100%;
+    margin: auto;
 }
 .jelly-card {
     grid-column: 3/4;
